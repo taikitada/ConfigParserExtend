@@ -1,6 +1,6 @@
 import ConfigParser
 
-class ConfigParse:
+class ConfigParser:
 	def __init__(self, config_file):
 		self.config = ConfigParser.SafeConfigParser()
 		(self.config).read(config_file)
