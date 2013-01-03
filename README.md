@@ -8,7 +8,7 @@ This module is a little bit extend the default ConfigParser module.
 ###How to use
 
 	>>> from ConfigParserExtend import *
-	>>> CP = ConfigParser("server.conf")
+	>>> CP = ConfigParserExtend("server.conf")
 	>>> ConfigParse = CP.ReturnConfigDict()
 
 	>>> ConfigParse["Server"]["IP"]
